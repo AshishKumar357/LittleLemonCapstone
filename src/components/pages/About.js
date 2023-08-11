@@ -1,7 +1,12 @@
 import React from "react";
+import Heading from "../sections/aboutPages/Heading";
 
 const About = () => {
-  return <div></div>;
+  return (
+    <>
+      <Heading />
+    </>
+  );
 };
 
 export default About;
