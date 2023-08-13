@@ -1,4 +1,5 @@
-import Carousel from "./TestimonialCarousel";
+import React from "react";
+import Carousel from "./TestimonialsCarousel";
 import TestimonialCard from "./CardView/TestimonialCard";
 export default function Testimonials() {
   return (
