@@ -13,8 +13,7 @@ export default function Specials() {
         <a
           className="action-button"
           href={require("../../../assets/menu.webp")}
-          target="_blank"
-          rel="noreferrer"
+          target="#"
         >
           Online Menu
         </a>

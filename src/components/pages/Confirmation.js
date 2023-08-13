@@ -20,8 +20,7 @@ export default function Confirmation() {
         <a
           className="redirect-button"
           href={require("../../assets/menu.webp")}
-          target="_blank"
-          rel="noreferrer"
+          target="#"
         >
           Browse Menu
         </a>
