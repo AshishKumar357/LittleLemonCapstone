@@ -1,6 +1,6 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
-import TestimonialCard from "./CardInfo/TestimonialCard";
+import TestimonialCard from "./CardView/TestimonialCard";
 export default function CarouselPage() {
   return (
     <Carousel
