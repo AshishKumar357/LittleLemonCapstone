@@ -1,3 +1,4 @@
+import React from "react";
 import Star from "../../../../assets/star.png";
 export default function TestimonialCard(props) {
   return (

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import Navigation from "./Navigation";
 import Hamburger from "../assets/hamburger.png";
 import Close from "../assets/close.png";

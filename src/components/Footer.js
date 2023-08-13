@@ -1,3 +1,4 @@
+import React from "react";
 import { Link } from "react-router-dom";
 export default function Footer() {
   return (
@@ -14,11 +15,7 @@ export default function Footer() {
           <ul className="footer-links">
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
-            <a
-              href={require("../assets/menu.webp")}
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href={require("../assets/menu.webp")} target="/menu">
               Menu
             </a>
             <Link to="/reservations">Reservations</Link>
@@ -30,16 +27,12 @@ export default function Footer() {
         <li>
           <h1 className="footer-header">Contact</h1>
           <ul className="footer-links">
-            <li>2395 Maldove Way,</li>
+            <li>35 Maldove Way,</li>
             <li>Chicago Illinois</li>
             <br></br>
-            <li>(629)-243-6827</li>
+            <li>8967543245</li>
             <br></br>
-            <a
-              href="mailto: info@littlelemon.com"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="mailto: info@littlelemon.com" target="/mail">
               info@littlelemon.com
             </a>
           </ul>
@@ -47,24 +40,18 @@ export default function Footer() {
         <li>
           <h1 className="footer-header">Connect</h1>
           <ul className="footer-links">
-            <a
-              href="https://www.facebook.com/thelittlelemonshop/"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://www.facebook.com/thelittlelemonshop/" target="/FB">
               Facebook
             </a>
             <a
               href="https://www.instagram.com/littlelemonmoon/"
-              target="_blank"
-              rel="noreferrer"
+              target="/Insta"
             >
               Instagram
             </a>
             <a
               href="https://www.youtube.com/watch?v=3Li-FfypZYE"
-              target="_blank"
-              rel="noreferrer"
+              target="/Youtube"
             >
               Join us!
             </a>

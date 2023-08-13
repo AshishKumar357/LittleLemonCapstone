@@ -1,3 +1,4 @@
+import React from "react";
 import HeroImage from "../../../assets/food/food4.webp";
 export default function Heading() {
   return (
@@ -8,7 +9,7 @@ export default function Heading() {
         alt="Little Lemon Ingredients"
       ></img>
       <div className="reserve-header-text">
-        <h1>Order Online</h1>
+        <h1>About us</h1>
       </div>
     </header>
   );

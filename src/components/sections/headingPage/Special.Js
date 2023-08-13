@@ -1,4 +1,5 @@
-import Carousel from "./SpecialsCarousel";
+import React from "react";
+import Carousel from "./SpecialCarousel";
 import GreekSalad from "../../../assets/food/greek-salad.webp";
 import Bruschetta from "../../../assets/food/bruschetta.jpeg";
 import LemonDessert from "../../../assets/food/lemon-dessert.webp";

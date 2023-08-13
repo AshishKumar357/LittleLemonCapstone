@@ -1,7 +1,10 @@
 import React from "react";
+import Login from "../sections/loginPage/Login";
 
-const Login = () => {
-  return <div></div>;
-};
-
-export default Login;
+export default function Order() {
+  return (
+    <>
+      <Login />
+    </>
+  );
+}
